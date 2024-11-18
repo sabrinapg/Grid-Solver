@@ -9,7 +9,7 @@ This project is a grid solver implemented in C, designed to take a grid of numbe
 - *Grid Creation*: Creates a grid to hold the values while solving the puzzle.
 - *Backtracking Solver*: Implements backtracking to try different solutions, ensuring all constraints are satisfied.
 - *Validation*: Checks for row and column constraints to verify if the solution is correct.
-- *Output**: Outputs the grid once a valid solution is found.
+- *Output*: Outputs the grid once a valid solution is found.
 
 # Project Structure
 The project is divided into the following files:
@@ -18,7 +18,7 @@ The project is divided into the following files:
 - *input.c*: Handles input parsing, converting characters into integers, and passing them to the solver.
 - *main.c*: The main entry point of the program that sets up the grid and initiates the solving process.
 - *solver.c*: Contains the backtracking algorithm for solving the grid, checking constraints, and verifying the validity of placements.
-- *utils.**: Utility functions used throughout the project to handle repetitive tasks.
+- *utils.*: Utility functions used throughout the project to handle repetitive tasks.
 - *validation.c*: Implements functions to validate the constraints of the grid.
 
 # How to Compile
